@@ -72,7 +72,7 @@ if __name__ == "__main__":
     model.load_weights(weights_path,by_name=True)
 
     # 打开数据集的txt
-    with open("./dataset2/train.txt","r") as f:
+    with open("./dataset/train.txt","r") as f:
         lines = f.readlines()
 
     #---------------------------------------------#
